@@ -1,5 +1,18 @@
 # `eksctl` - The official CLI for Amazon EKS
 
+  
+
+  
+  
+> ***Reason for this fork***: This fork makes a trivial change to set the subnets created for Managed NodeGroups to Private instead of Public.  
+It will likely only exist until https://github.com/weaveworks/eksctl/issues/1575 is resolved.
+  
+  
+  
+  
+  
+  
+
 [![Circle CI](https://circleci.com/gh/weaveworks/eksctl/tree/master.svg?style=shield)](https://circleci.com/gh/weaveworks/eksctl/tree/master) [![Coverage Status](https://coveralls.io/repos/github/weaveworks/eksctl/badge.svg?branch=master)](https://coveralls.io/github/weaveworks/eksctl?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/weaveworks/eksctl)](https://goreportcard.com/report/github.com/weaveworks/eksctl)
 
 `eksctl` is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.
